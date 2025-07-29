@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load(r'C:\Users\Gouthum\Downloads\ALL-Ml-Dl-PROJECTS\xgb_model.pkl')
+model = joblib.load('xgb_model.pkl')
 
 st.title("🚗 Used Car Price Prediction")
 
